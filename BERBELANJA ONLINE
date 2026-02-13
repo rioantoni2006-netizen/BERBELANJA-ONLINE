@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Toko Online Rio Antoni</title>
+
+<style>
+body {
+ font-family: Arial;
+ background-color: #f0f0f0;
+}
+
+.box {
+ background: white;
+ padding: 20px;
+ width: 300px;
+ margin: auto;
+ margin-top: 50px;
+ border-radius: 10px;
+ box-shadow: 0px 0px 10px gray;
+}
+
+button {
+ background-color: green;
+ color: white;
+ padding: 10px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+button:hover {
+ background-color: darkgreen;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h2>Toko Online Rio Antoni</h2>
+
+<p>Produk: Laptop</p>
+<p>Harga: Rp 5.000.000</p>
+
+<button onclick="beli()">Beli</button>
+
+<p id="output"></p>
+
+</div>
+
+<script>
+
+function beli() {
+ document.getElementById("output").innerHTML =
+ "Pembelian berhasil! Terima kasih sudah berbelanja.";
+}
+
+</script>
+
+</body>
+</html>
